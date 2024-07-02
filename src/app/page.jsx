@@ -1,9 +1,15 @@
-import Image from "next/image";
+import WithLargeShot from "@/components/feature-section-1";
+import HeroWithAngledImageOnRight from "@/components/hero-2";
+import HeroSimpleCenter from "@/components/hero-section";
+import PricingWithDetails from "@/components/pricing-with-details";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center min-h-screen ">
-      <h1 className="text-3xl font-bold ">React Tailwind Components</h1>
+    <div>
+      {/* <HeroSimpleCenter /> */}
+      {/* <WithLargeShot /> */}
+      {/* <PricingWithDetails /> */}
+      <HeroWithAngledImageOnRight />
     </div>
   );
 }

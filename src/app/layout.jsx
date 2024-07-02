@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL("https://sayedmurtaza.com"),
   title: {
-    default: `${siteConfig.name} | React Tailwind Components`,
+    default: ` React Tailwind Components`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
